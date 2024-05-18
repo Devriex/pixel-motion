@@ -1,0 +1,333 @@
+*{
+    color: #333333;
+}
+/* top header */
+.top-header-content{
+  padding: 15px 10px;
+}
+.header-title {
+  font-size: 27px;
+  margin-left: 30px;
+}
+.contact-number {
+  font-size: 27px;
+}
+.live-chat{
+  font-size: 14px;
+  padding: 1px 20px;
+  background: linear-gradient(to top, rgb(255, 0, 0), rgb(180, 18, 18), rgb(255, 255, 255));
+  text-align: center;
+  text-decoration: none;
+}
+/* nav menu */
+.navbar{
+  background-color: #333333;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+  border:none;
+} 
+a.nav-link{
+    font-size: 18px;
+}
+
+
+
+
+/* banner section */
+.banner h1{
+    font-size: 60px;
+}
+.banner .hd-a{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #017cc2;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-decoration: none;
+    
+}
+.banner-img-car{
+  width: 100%;
+}
+
+.banner > div{
+  height: 400px;
+}
+.lg-banner {
+  align-content: end;
+}
+body > div.banner > div > div.lg-banner > img{
+  width: 90%;
+}
+.banner-text h3 {
+  font-size: 35px;
+}
+.banner-text h5 {
+  font-size: 18px;
+}
+
+
+/* buttons */
+.features{
+    background-color: rgb(238, 238, 238);
+    position: relative;
+  }
+.features .tags{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.features .tags button{
+    padding: 15px 5px;
+    font-size: 22px;
+    font-weight: bold;    
+    background-color: #017cc2;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+
+/* Main Section */
+.main{
+  background: rgb(238, 238, 238);
+}
+.main .container{
+  padding:50px 30px;
+}
+a.nav-link,
+.cars-list .list-item a,
+.footer div a{
+  color: #999999; 
+  text-decoration: none;
+}
+.help span,
+.offers .title span{
+  font-size: 24px;
+  font-weight: bold;
+}
+.offers .title a{
+  font-size: 18px;  
+  color: #999999; 
+  text-decoration: none;
+}
+.offers .cars-list{
+  gap:10px;
+}
+.offers .cars-list .list-item{
+  display: flex;
+  flex-direction: column;
+}
+
+.car-img{
+  width: 100%;
+  height: auto;
+  padding:0px 20px;
+}
+
+
+
+/* promotions */
+.promotions{
+  background: rgb(51, 51, 51);
+}
+
+
+
+/* footer */
+.footer div a{
+  color: #000000;
+}
+.footer > div > img{
+  margin-top: 5px;
+}
+footer div.links a,
+footer div.links span{
+  color: #ffffff;
+  text-decoration: none;
+}
+.links {
+  width: 100%;
+  background:rgb(1, 124, 194) ;
+}
+.links span{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+/* icons */
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+/* google + */
+  .fa-google-plus {
+    background: #dd4b39;
+    color: white;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .banner > div{
+    background: url('/assets/images/banner-car3.png');
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: cover;
+  }
+
+  .live-chat{
+    padding: 1px 10px;
+  }
+  .fa {
+    padding: 5px;
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+  }
+  .main .container {
+    padding:30px 20px 80px 20px;
+  }
+  .banner-text{
+    margin-top: 25px;
+  }
+  .banner .hd-a{
+    margin-top: 5px;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+  .offers .cars-list .list-item {
+    text-align: center;
+  }
+  .hide-on-tablet{
+    display:none;
+  }
+
+  
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+  .header-title {
+    font-size: 20px; /* adjust 28px to 24px too big for my screen */
+    margin-left: 0px;
+  }
+  .contact-number {
+    font-size: 20px; /* adjust 28px to 24px too big for my screen */
+  }
+  .features .tags{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }  
+
+
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .banner > div{
+    background: url('/assets/images/t-banner.png');
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: cover;
+  }
+  .contact-number {
+    font-weight: 700;
+  }
+  .offers .cars-list .list-item span{
+    font-size: 18px;
+  }
+  .banner-text h3 {
+    font-size: 50px;
+  }
+  .banner .hd-a{
+    margin-top: 20px;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .help{
+    width: 380px;
+  }  
+  .banner > div{
+  height: 450px;
+  }
+
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .banner > div {
+    background:none;
+}
+  .offers .cars-list .list-item span{
+    font-size: 18px;
+  }
+  .banner {
+    background: url('/assets/images/Group2.png');
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: cover;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .offers .cars-list .list-item span{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .offers .cars-list .list-item p{
+    margin: 0px;
+  }
+
+}
