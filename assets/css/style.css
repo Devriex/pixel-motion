@@ -205,7 +205,7 @@ footer div.links span{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .banner > div{
-    background: url('/assets/images/banner-car3.png');
+    background: url('/pixel-motion/assets/images/banner-car3.png');
     background-repeat: no-repeat;
     background-position:bottom;
     background-size: cover;
@@ -270,7 +270,7 @@ footer div.links span{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .banner > div{
-    background: url('/assets/images/t-banner.png');
+    background: url('/pixel-motion/assets/images/t-banner.png');
     background-repeat: no-repeat;
     background-position:bottom;
     background-size: cover;
